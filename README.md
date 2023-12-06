@@ -14,11 +14,7 @@ Sample project to practise Docker
  poetry install
  ```
 
-
 ### Executing program
-
-* How to run the program
-* Step-by-step bullets
 ```
 # To run the server
 poetry run uvicorn app.main:app
