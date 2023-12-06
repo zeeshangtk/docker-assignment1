@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "docker-asssignment-1"
+version = "0.1.0"
+description = ""
+authors = ["Zeeshan Ali"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.104.1"
+pytest = "^7.4.3"
+httpx = "^0.25.2"
+uvicorn = "^0.24.0.post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
